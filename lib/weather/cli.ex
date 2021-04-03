@@ -65,7 +65,7 @@ defmodule Weather.CLI do
     }
   end
 
-  def get_useful_data({:ok, map}, _location_id) do
+  def get_useful_data({:ok, map}) do
     %{"current_observation" => current_observation} = map
     %{"#content" => content} = current_observation
 
