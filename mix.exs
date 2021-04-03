@@ -8,6 +8,8 @@ defmodule Weather.MixProject do
       escript: escript_config(),
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
+      name: "Weather",
+      source_url: "https://github.com/danielvu1994/PE_1_6_weather_ex",
       deps: deps()
     ]
   end

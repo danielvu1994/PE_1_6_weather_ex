@@ -1,6 +1,9 @@
 # Weather
 
 **TODO: Add description**
+This app is a small exercise in Programing Elixir > 1.6 (Dave Thomas).
+[OrganizingAProject-6/Page 168]
+You can use this app to fetch some basic data from http://w1.weather.gov/xml/current_obs/KDTO.xml.
 
 ## Installation
 
@@ -18,4 +21,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/weather](https://hexdocs.pm/weather).
-
