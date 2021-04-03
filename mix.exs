@@ -5,6 +5,7 @@ defmodule Weather.MixProject do
     [
       app: :weather,
       version: "0.1.0",
+      escript: escript_config(),
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -29,6 +30,12 @@ defmodule Weather.MixProject do
       { :earmark, "~> 1.4.10" },
       {:elixml, github: "mlankenau/elixml"},
       {:elixir_xml_to_map, "~> 2.0.0"},
+    ]
+  end
+
+  defp escript_config do
+    [
+      main_module: Weather.CLI
     ]
   end
 end
